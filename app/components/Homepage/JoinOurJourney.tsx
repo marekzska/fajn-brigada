@@ -10,6 +10,7 @@ export const JoinOurJourney = () => {
       <Link
         href='/materialy.pdf'
         className='rounded-lg text-sm sm:text-lg md:text-2xl font-bold py-6 px-16 bg-brigada-blue mt-10'
+        target="_blank"
       >
         Projít si materiály
       </Link>

@@ -91,9 +91,10 @@ export default function AboutUsRows() {
             </Disclosure>
           ))}
         </div>
-        <div className='flex mt-24  shadow-[0px_0px_8px_-3px_rgba(0,0,0,0.3)] p-10 rounded-xl'>
+        <div className='flex items-center mt-24 p-10 rounded-xl'>
+          <Image className="ml-auto h-16 w-auto" src='/ipsos-transparent.png' width={200} height={200} alt='' />
           <div className='flex flex-col gap-4 mx-auto'>
-            <h2 className=' text-3xl font-semibold text-gray-900'>
+            <h2 className='text-xl font-semibold text-gray-900'>
               V případě dotazu nás kontaktujte
             </h2>
             <Link

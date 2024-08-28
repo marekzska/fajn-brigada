@@ -21,14 +21,17 @@ const resources = [
   {
     name: "Manuál pro volání",
     href: "/materialy.pdf",
+    target: "_blank",
   },
   {
     name: "První přihlášení",
     href: "#",
+    target: "_self",
   },
   {
     name: "Zásady dotazování",
     href: "#",
+    target: "_self",
   },
 ];
 
@@ -97,6 +100,7 @@ export function Navigation() {
                       <Link
                         href={item.href}
                         className='block font-semibold text-gray-900'
+                        target={item.target}
                       >
                         {item.name}
                         <span className='absolute inset-0' />
