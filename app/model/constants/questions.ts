@@ -61,9 +61,32 @@ export const questions = {
   ],
   zdenka: [
     {
-      question: "What's the best thing about Switzerland?",
+      question:
+        "Zdeňko, jakou pozici v Ipsosu zastáváš a jak dlouho tu pracuješ?  ",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Pracuji na pozici Projektového managera. V Ipsosu pracuji již 18. rokem.",
+    },
+    {
+      question:
+        "Co považuješ za největší výzvu, které si v naší společnosti čelila?",
+      answer:
+        "Moje největší výzva byla před lety, když jsem změnila svoji pozici ze supervizora právě na projektového managera, kde jsem začala vést projekty pro oddělení Farma, což byly výzkumy zaměřené pouze na lékaře. Nyní už se věnuji výzkumům obecně, převážně to jsou projekty pro velké partnery.",
+    },
+    {
+      question: "Co tě na této práci nejvíc baví?",
+      answer:
+        "Práce s lidmi, různorodost výzkumů, když se podaří dokončit všechny zadané projekty s dobrým výsledkem.",
+    },
+    {
+      question: "Jaké máš záliby či koníčky, kterým se věnuješ ve volném čase?",
+      answer:
+        "Je to hlavně má velká rodina, vnoučata, lyže, turistika, sledování ragby, příroda, hory.",
+    },
+    {
+      question:
+        "Máš nějaký oblíbený citát či motto, kterým se ve svém životě řídíš?",
+      answer:
+        "Ve svém životě se hlavně snažím řídit sama sebou, ale mé oblíbené motto je: Co tě nezabije to tě posílí a dvakrát měř a jednou řež.",
     },
   ],
   lukas: [
@@ -92,7 +115,8 @@ export const questions = {
     {
       question:
         "Máš nějaký oblíbený citát či motto, kterým se ve svém životě řídíš?",
-      answer: "V poslední době se mým mottem stalo \"Každý problém má řešení, pokud jste ochotni ho hledat.\"",
+      answer:
+        'V poslední době se mým mottem stalo "Každý problém má řešení, pokud jste ochotni ho hledat."',
     },
   ],
 };

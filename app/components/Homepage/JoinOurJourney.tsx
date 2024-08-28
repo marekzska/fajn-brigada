@@ -8,9 +8,9 @@ export const JoinOurJourney = () => {
         Přidejte se na naši společnou cestu
       </div>
       <Link
-        href='/materialy.pdf'
+        href='/MANUÁL PRO VOLÁNÍ Z DOMOVA_FB.pdf'
         className='rounded-lg text-sm sm:text-lg md:text-2xl font-bold py-6 px-16 bg-brigada-blue mt-10'
-        target="_blank"
+        target='_blank'
       >
         Projít si materiály
       </Link>

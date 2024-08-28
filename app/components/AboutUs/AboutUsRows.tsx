@@ -30,15 +30,15 @@ const people = [
     name: "Zdeňka Honnerová",
     slug: PeopleSlugsEnum.ZDENKA,
     role: "CATI Project Manager",
-    imageUrl: "/superMarek.jpg",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    imageUrl: "/placeholder.png",
+    bio: "Lukáš nastoupil do Ipsosu jjako tazatel v roce 2011 a od roku 2017 pracuje na pozici supervizora call centra. ",
   },
   {
     name: "Lukáš Plicka",
     slug: PeopleSlugsEnum.LUKAS,
-    role: "Tento udaj nemam, dodajte",
-    imageUrl: "/harryMarek.jpg",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    role: "CATI Supervizor",
+    imageUrl: "/placeholder.png",
+    bio: "Lukáš nastoupil do Ipsosu jako tazatel v roce 2011 a od roku 2017 pracuje na pozici supervizora call centra. ",
   },
 ];
 
@@ -91,9 +91,9 @@ export default function AboutUsRows() {
             </Disclosure>
           ))}
         </div>
-        <div className='flex items-center mt-24 p-10 rounded-xl'>
-          <Image className="ml-auto h-16 w-auto" src='/ipsos-transparent.png' width={200} height={200} alt='' />
-          <div className='flex flex-col gap-4 mx-auto'>
+        <div className='flex items-center mt-24 p-10 rounded-xl justify-center gap-8'>
+          <Image src='/ipsos-logo-transparent.svg' width={200} height={200} alt='' />
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-semibold text-gray-900'>
               V případě dotazu nás kontaktujte
             </h2>

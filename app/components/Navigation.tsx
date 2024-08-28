@@ -20,17 +20,17 @@ import { useState } from "react";
 const resources = [
   {
     name: "Manuál pro volání",
-    href: "/materialy.pdf",
+    href: "/MANUÁL PRO VOLÁNÍ Z DOMOVA_FB.pdf",
     target: "_blank",
   },
   {
     name: "První přihlášení",
-    href: "#",
-    target: "_self",
+    href: "/POSTUP PŘI PRVNÍM PŘÍHLÁŠENÍ DO CATIEXU A REGISTRACE_FB.pdf",
+    target: "_blank",
   },
   {
     name: "Zásady dotazování",
-    href: "#",
+    href: "/zasady",
     target: "_self",
   },
 ];
@@ -118,17 +118,18 @@ export function Navigation() {
           >
             Smlouvy
           </Link>
-          <Link
+          {/* <Link
             href='#'
             className='text-sm font-semibold leading-6 text-gray-900'
           >
             Dotazy
-          </Link>
+          </Link> */}
         </PopoverGroup>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <Link
-            href='#'
+            href='/MANUÁL PRO VOLÁNÍ Z DOMOVA_FB.pdf'
             className='text-sm font-semibold rounded-lg leading-6 text-gray-900 bg-brigada-blue text-white p-3'
+            target='_blank'
           >
             Zapoj se
           </Link>
@@ -201,18 +202,19 @@ export function Navigation() {
                 >
                   Smlouvy
                 </Link>
-                <Link
+                {/* <Link
                   href='#'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                 >
                   Dotazy
-                </Link>
+                </Link> */}
               </div>
               <div className='py-6'>
                 <Link
-                  href='#'
+                  href='/MANUÁL PRO VOLÁNÍ Z DOMOVA_FB.pdf'
                   className='-mx-3 block px-3 py-2.5 text-base font-semibold leading-7 bg-brigada-blue text-white hover:bg-gray-50'
                   onClick={() => setMobileMenuOpen(false)}
+                  target='_blank'
                 >
                   Zapoj se
                 </Link>

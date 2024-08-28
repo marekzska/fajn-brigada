@@ -80,13 +80,13 @@ export const Hero = () => {
             </div>
           </div>
           <div className='hidden xl:block mt-16 sm:mt-24 xl:mt-0 w-1/2'>
-            <Image
-              src='/ultraMarek.jpg'
+            {/* <Image
+              src=''
               width={1000}
               height={1000}
               alt=''
               className='h-auto w-2/3 mx-auto rounded-full'
-            />
+            /> */}
           </div>
         </div>
       </div>
