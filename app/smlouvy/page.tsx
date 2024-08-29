@@ -38,14 +38,14 @@ export default function page() {
             <Link
               href='/VZOR - Sleva na dani.pdf'
               target='_blank'
-              className='bg-brigada-blue p-4 font-bold text-white w-60 rounded-md underline underline-offset-4 text-center'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
             >
               VZOR - Sleva na dani
             </Link>
             <Link
               href='/Čestné prohlášení.pdf'
               target='_blank'
-              className='bg-brigada-blue p-4 font-bold text-white w-60 rounded-md underline underline-offset-4 text-center'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
             >
               Čestné prohlášení
             </Link>
@@ -68,7 +68,7 @@ export default function page() {
             <Link
               href='/VZOR_Příkazní_smlouva.pdf'
               target='_blank'
-              className='bg-brigada-blue p-4 font-bold text-white w-60 rounded-md underline underline-offset-4 text-center'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
             >
               VZOR Příkazní smlouva
             </Link>

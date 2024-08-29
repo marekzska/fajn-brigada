@@ -90,25 +90,28 @@ export function Navigation() {
               transition
               className='absolute right-1/2 translate-x-1/2 top-full z-50 mt-3 w-[200px] overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
             >
-              <div className='p-4'>
-                {resources.map((item) => (
-                  <div
-                    key={item.name}
-                    className='group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50'
-                  >
-                    <div className='flex-auto'>
-                      <Link
-                        href={item.href}
-                        className='block font-semibold text-gray-900'
-                        target={item.target}
-                      >
-                        {item.name}
-                        <span className='absolute inset-0' />
-                      </Link>
+              {({ close }: { close: any }) => (
+                <div className='p-4'>
+                  {resources.map((item) => (
+                    <div
+                      key={item.name}
+                      className='group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50'
+                    >
+                      <div className='flex-auto'>
+                        <Link
+                          href={item.href}
+                          className='block font-semibold text-gray-900'
+                          target={item.target}
+                          onClick={() => close()}
+                        >
+                          {item.name}
+                          <span className='absolute inset-0' />
+                        </Link>
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              )}
             </PopoverPanel>
           </Popover>
 

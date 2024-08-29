@@ -31,14 +31,14 @@ const people = [
     slug: PeopleSlugsEnum.ZDENKA,
     role: "CATI Project Manager",
     imageUrl: "/placeholder.png",
-    bio: "Lukáš nastoupil do Ipsosu jjako tazatel v roce 2011 a od roku 2017 pracuje na pozici supervizora call centra. ",
+    bio: "Zdeňka nastoupila do Ipsosu v roce 2006 na pozici Projektového managera, ve které působí dodnes.",
   },
   {
     name: "Lukáš Plicka",
     slug: PeopleSlugsEnum.LUKAS,
     role: "CATI Supervizor",
     imageUrl: "/placeholder.png",
-    bio: "Lukáš nastoupil do Ipsosu jako tazatel v roce 2011 a od roku 2017 pracuje na pozici supervizora call centra. ",
+    bio: "Lukáš nastoupil do Ipsosu jako tazatel v roce 2011 a od roku 2017 pracuje na pozici supervizora call centra.",
   },
 ];
 

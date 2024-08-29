@@ -42,7 +42,8 @@ const cards = [
       />
     ),
     title: "Zapoj se",
-    rows: ["Projděte si výukové materiály a testovací dotazník"],
+    // rows: ["Projděte si výukové materiály a testovací dotazník"],
+    rows: ["Projděte si výukové materiály"],
     classes: "bg-gradient-to-b from-brigada-blue to-[#7291ca]",
   },
 ];

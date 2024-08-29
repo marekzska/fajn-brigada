@@ -1,6 +1,7 @@
 "use client";
 import { InformationCircleIcon } from "@heroicons/react/20/solid";
 import { Player } from "../components/zasady/Player";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -161,6 +162,13 @@ export default function page() {
             kontaktujeme. Naopak, když bude hovor příjemný a Vy mu za jeho čas i
             hezky poděkujete, tak bude příště více nakloněný k další spolupráci
             s námi.
+          </p>
+          <p className='mt-10'>
+            Prošli jste si veškeré materiály a chcete s námi spolupracovat?
+            Vyplňte přiložený formulář{' '}
+            <Link href='https://forms.gle/ph9Z2M2ugqTZW1vY8' className="text-brigada-blue underline underline-offset-4" target="_blank">
+              https://forms.gle/ph9Z2M2ugqTZW1vY8.
+            </Link>
           </p>
         </div>
       </div>
