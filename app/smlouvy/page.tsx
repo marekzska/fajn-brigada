@@ -14,7 +14,9 @@ export default function page() {
       <div className='h-2/3 flex flex-col gap-5'>
         <div className='p-4 rounded-xl shadow-[0px_0px_8px_-3px_rgba(0,0,0,0.3)] flex flex-col gap-4'>
           <div>
-            <h4 className='font-bold text-xl sm:text-2xl mt-4'>DPP CZ</h4>
+            <h4 className='font-bold text-xl sm:text-2xl mt-4 underline underline-offset-4'>
+              DPP CZ
+            </h4>
             <br />
             <p>
               Je zákonem ustanovena na 300 odpracovaných hodin za rok s
@@ -34,58 +36,60 @@ export default function page() {
               záložkou První přihlášení.
             </p>
           </div>
-          <div className='border-t pt-5 flex flex-wrap gap-5 items-center justify-center'>
+          <div className='border-t pt-5 flex flex-wrap gap-5 items-center '>
             <Link
               href='/VZOR - Sleva na dani.pdf'
               target='_blank'
-              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md text-center'
             >
               VZOR - Sleva na dani
             </Link>
             <Link
               href='/Čestné prohlášení.pdf'
               target='_blank'
-              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md text-center'
             >
               Čestné prohlášení
             </Link>
           </div>
         </div>
         <div className='shadow-[0px_0px_8px_-3px_rgba(0,0,0,0.3)] p-4 rounded-xl flex flex-col gap-4'>
-          <div>
-            <h4 className='font-bold text-xl sm:text-2xl mt-4'>DPP SK</h4>
-            <br />
-            <p>
-              Tento druh smlouvy se podepisuje v případě, kdy pracujete z území
-              Slovenska a nemáte zájem pracovat na příkazní smlouvu. Zákonné
-              omezení je na 350 hodin za rok. Z Vašeho výdělku se odvádí veškeré
-              povinné daňové odvody. Je možné podepsat si slevu na dani.
-              Studenti denního studia mají tomu uzpůsobenou smlouvu a její
-              podmínky. Před podpisem smlouvu nás prosím kontaktujte.
-            </p>
-          </div>
-          <div className='border-t pt-5 flex flex-col items-center justify-center'>
-            <Link
-              href='/VZOR_Příkazní_smlouva.pdf'
-              target='_blank'
-              className='bg-gray-300 p-4 font-bold w-60 rounded-md underline underline-offset-4 text-center'
-            >
-              VZOR Příkazní smlouva
-            </Link>
-          </div>
-        </div>
-        <div className='shadow-[0px_0px_8px_-3px_rgba(0,0,0,0.3)] p-4 rounded-xl'>
-          <h4 className='font-bold text-xl sm:text-2xl mt-4'>
-            Příkazní smlouva (živnost)
+          <h4 className='font-bold text-xl sm:text-2xl mt-4 underline underline-offset-4'>
+            DPP SK
           </h4>
           <br />
           <p>
-            Není zde nastaven žádný minimální ani maximální výdělek za měsíc.
-            Tato smlouva není ani limitována žádným ročním počtem odpracovaných
-            hodin. Pro podepsání je potřeba kopie živnostenského listu (nebo
-            výpis z rejstříku). Příkazní smlouvu je potřeba poslat podepsanou a
-            oskenovanou na náš e-mail.
+            Tento druh smlouvy se podepisuje v případě, kdy pracujete z území
+            Slovenska a nemáte zájem pracovat na příkazní smlouvu. Zákonné
+            omezení je na 350 hodin za rok. Z Vašeho výdělku se odvádí veškeré
+            povinné daňové odvody. Je možné podepsat si slevu na dani. Studenti
+            denního studia mají tomu uzpůsobenou smlouvu a její podmínky. Před
+            podpisem smlouvu nás prosím kontaktujte.
           </p>
+        </div>
+        <div className='shadow-[0px_0px_8px_-3px_rgba(0,0,0,0.3)] p-4 rounded-xl'>
+          <div>
+            <h4 className='font-bold text-xl sm:text-2xl mt-4 underline underline-offset-4'>
+              Příkazní smlouva (živnost)
+            </h4>
+            <br />
+            <p>
+              Není zde nastaven žádný minimální ani maximální výdělek za měsíc.
+              Tato smlouva není ani limitována žádným ročním počtem
+              odpracovaných hodin. Pro podepsání je potřeba kopie živnostenského
+              listu (nebo výpis z rejstříku). Příkazní smlouvu je potřeba poslat
+              podepsanou a oskenovanou na náš e-mail.
+            </p>
+          </div>
+          <div className='border-t pt-5 flex items-center'>
+            <Link
+              href='/VZOR_Příkazní_smlouva.pdf'
+              target='_blank'
+              className='bg-gray-300 p-4 font-bold w-60 rounded-md text-center '
+            >
+              VZOR - Příkazní smlouva
+            </Link>
+          </div>
         </div>
       </div>
     </div>
