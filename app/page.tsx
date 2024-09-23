@@ -15,6 +15,12 @@ export default function page() {
       <WhyIsYourWorkImportant />
       <JoinOurJourney />
       <History />
+      <iframe
+        src='https://www.chatbase.co/chatbot-iframe/qaebUnWAF_Kd3VlcgQ_Cr'
+        width='100%'
+        style={{ height: "100%", minHeight: "700px" }}
+        frameBorder={0}
+      ></iframe>
     </>
   );
 }
