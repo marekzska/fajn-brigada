@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <Script
+        id='chatbot-config'
         dangerouslySetInnerHTML={{
           __html: `
             window.embeddedChatbotConfig = {
