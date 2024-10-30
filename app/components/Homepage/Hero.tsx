@@ -38,10 +38,10 @@ export const Hero = () => {
         <div className='mx-auto w-full lg:px-32 px-6 pb-24 xl:flex xl:items-center justify-between xl:gap-x-10 xl:py-10'>
           <div className='xl:mx-auto xl:w-1/2 xl:mx-0 xl:flex-auto'>
             <h1 className='max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-              IPSOS s. r. o.
+              IPSOS s. r. o.,
             </h1>
             <h2 className='mt-4 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-              renomovaná agentura pro výzkum trhu
+              renomovaná agentura pro výzkum trhu,
             </h2>
             <p className='mt-6 text-lg leading-6 text-gray-600'>
               hledá tazatele pro telefonické výzkumy. Nabízíme dlouhodobou
@@ -61,18 +61,19 @@ export const Hero = () => {
               <br />
               <br />
               Požadujeme: Znalost práce s PC, dobrý hlasový projev a komunikační
-              dovednosti
+              dovednosti.
               <br />
               <br />
               Nabízíme: Mzdu od 140Kč/hod, práce v centru Prahy či z domova,
-              motivační soutěže a mimořádné finanční odměny
+              motivační soutěže a mimořádné finanční odměny.
               <br />
               <br />
-              Těšíme se na spolupráci s vámi
+              Těšíme se na spolupráci s vámi.
             </p>
             <div className='mt-10 flex items-center gap-x-6'>
               <Link
-                href='#'
+                href='/MANUÁL PRO VOLÁNÍ Z DOMOVA_FB.pdf'
+                target="_blank"
                 className='rounded-lg mx-auto sm:mx-0 bg-brigada-blue px-16 py-5 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
               >
                 Zapoj se
