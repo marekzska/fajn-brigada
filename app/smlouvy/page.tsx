@@ -20,7 +20,7 @@ export default function page() {
             <br />
             <p>
               Je zákonem ustanovena na 300 odpracovaných hodin za rok s
-              maximálním výdělkem 10 000 Kč za měsíc. Dohoda je platná od data
+              maximálním výdělkem 11 499 Kč za měsíc. Dohoda je platná od data
               podpisu do posledního kalendářního dne v téže roce. Dohoda se
               podepisuje elektronicky v našem systému.
             </p>
