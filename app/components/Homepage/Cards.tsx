@@ -10,7 +10,7 @@ const cards = [
   {
     icon: (
       <FontAwesomeIcon
-        className='h-10 w-10 mx-auto text-white'
+        className="h-10 w-10 mx-auto text-white"
         icon={faDisplay}
       />
     ),
@@ -21,7 +21,7 @@ const cards = [
   {
     icon: (
       <FontAwesomeIcon
-        className='h-10 w-10 mx-auto text-white'
+        className="h-10 w-10 mx-auto text-white"
         icon={faListCheck}
       />
     ),
@@ -37,7 +37,7 @@ const cards = [
   {
     icon: (
       <FontAwesomeIcon
-        className='h-10 w-10 mx-auto text-white'
+        className="h-10 w-10 mx-auto text-white"
         icon={faHandHoldingDollar}
       />
     ),
@@ -51,21 +51,23 @@ const cards = [
 export function Cards() {
   return (
     <ul
-      role='list'
-      className='grid grid-cols-1 gap-6 grid-rows-3 md:grid-rows-1 md:grid-cols-3 px-6 lg:py-20 lg:px-32'
+      role="list"
+      className="grid grid-cols-1 gap-6 grid-rows-3 md:grid-rows-1 md:grid-cols-3 px-6 lg:py-20 lg:px-32"
     >
       {cards.map((card) => (
         <li
           key={card.title}
           className={`col-span-1 rounded-2xl flex flex-col py-20 px-10 divide-y divide-gray-200 text-white text-center shadow ${card.classes}`}
         >
-          <div className='flex flex-1 flex-col'>
+          <div className="flex flex-1 flex-col">
             {card.icon}
-            <h3 className='mt-6'>{card.title}</h3>
-            <dl className='mt-1 flex flex-grow flex-col justify-between'>
-              <dd className='mt-3'>
+            <h3 className="mt-6">{card.title}</h3>
+            <dl className="mt-1 flex flex-grow flex-col justify-between">
+              <dd className="mt-3">
                 {card.rows.map((row, index) => (
-                  <div key={index} className='m-2'>{row}</div>
+                  <div key={index} className="m-2">
+                    {row}
+                  </div>
                 ))}
               </dd>
             </dl>

@@ -8,7 +8,7 @@
 
 body {
   color: black;
-  background: white
+  background: white;
 }
 
 @layer utilities {

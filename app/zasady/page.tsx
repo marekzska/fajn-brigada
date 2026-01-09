@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div className='bg-white px-6 py-10 sm:py-24 lg:px-8'>
-      <div className='mx-auto lg:px-40 text-base leading-7 text-gray-700'>
-        <h1 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+    <div className="bg-white px-6 py-10 sm:py-24 lg:px-8">
+      <div className="mx-auto lg:px-40 text-base leading-7 text-gray-700">
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Zásady dotazování
         </h1>
-        <p className='mt-6 text-xl leading-8'>
+        <p className="mt-6 text-xl leading-8">
           Při této práci jde o komunikaci s lidmi, kterou máte trochu ztíženou
           tím, že můžete používat pouze svůj hlas. Proto je nejdůležitější částí
           hovoru její začátek, kde se představíte celým svým jménem. Snažte se
@@ -21,11 +21,11 @@ export default function page() {
           celé.
         </p>
         <div>
-          <Player source='/Dlouhá ukázka.mp3' />
-          <h2 className='mt-10 text-2xl font-bold tracking-tight text-gray-900'>
+          <Player source="/Dlouhá ukázka.mp3" />
+          <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
             Tempo hovoru
           </h2>
-          <p className='mt-6'>
+          <p className="mt-6">
             Tempo, kterým jako tazatel, povedete hovory s respondenty hraje
             klíčovou roli, proto jej nepodceňujte. Správné tempo Vám umožní
             udržet plynulý rozhovor a zároveň dává respondentovi dostatek času
@@ -40,7 +40,7 @@ export default function page() {
             spolehlivá data. Zároveň zanechá v respondentech pozitivní dojem, a
             budou tak ochotni zapojit se i do dalších studií.
           </p>
-          <p className='mt-6'>
+          <p className="mt-6">
             Tempo hovoru je součástí celkového projevu, který je dobré
             natrénovat. Pokud zvolíte utahaný projev s pomalým tempem, tak
             bohužel nikoho nezískáme a respondenti budou spíše ochotni věnovat
@@ -50,13 +50,13 @@ export default function page() {
             děkujte, a dotazujte jako tazatel, kterému byste Vy sami byli
             ochotni věnovat svůj volný čas.
           </p>
-          <Player source='/Tempo hovoru.mp3' />
+          <Player source="/Tempo hovoru.mp3" />
         </div>
-        <div className='mt-10'>
-          <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             Pozornost tazatele
           </h2>
-          <p className='mt-6'>
+          <p className="mt-6">
             Pozornost tazatele je zásadní pro úspěch jakéhokoliv průzkumu.
             Tazatel musí být plně soustředěný po čas celého hovoru i samotného
             vytáčení, aby mohl správně vnímat nejen obsah odpovědí, ale i různé
@@ -77,13 +77,13 @@ export default function page() {
             respondenta, že je potřeba otázku dovysvětlit nebo upřesnit, tak to
             uděláte.
           </p>
-          <Player source='/Pozornost tazatele.mp3' />
+          <Player source="/Pozornost tazatele.mp3" />
         </div>
-        <div className='mt-10'>
-          <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             Získání respondenta
           </h2>
-          <p className='mt-6'>
+          <p className="mt-6">
             Ve většině případech budete jako tazatel volat respondentům
             neočekávaně a bude tak potřeba vynaložit úsilí na jeho získání.
             Někteří respondenti mohou být zaskočeni a rychlou odpovědí hovor
@@ -92,7 +92,7 @@ export default function page() {
             Abychom ale o respondenty zbytečně nepřicházeli, je v takových
             případech velmi důležitá Vaše pohotová a správná reakce.
           </p>
-          <p className='mt-6'>
+          <p className="mt-6">
             Respondenty se nenechte odbýt, a pokud po úvodu zazní z druhé strany
             pouhé „Ne, děkuji; To já nedělám; Zkuste někoho jiného“, tak to
             prosím hned nevzdávejte. Při každém hovoru je klíčové jasně a
@@ -107,8 +107,8 @@ export default function page() {
             výzkumu, což jim poskytuje naprostou svobodu vyjádřit svůj názor
             upřímně a bez jakýchkoliv obav.
           </p>
-          <Player source='/Získání respondenta_2.mp3' />
-          <p className='mt-10'>
+          <Player source="/Získání respondenta_2.mp3" />
+          <p className="mt-10">
             Pokud Vám respondent poskytne trochu více informací a zastihli jste
             ho v nevhodnou dobu, kdy je například v práci, na nákupu, slyšíte v
             pozadí děti, řídí a podobně, opět je důležitá Vaše projevená snaha.
@@ -121,8 +121,8 @@ export default function page() {
             respondent dodal i nějakou důležitou informaci, která se bude hodit
             při dalším pokusu, tak ji nezapomeňte napsat do poznámky.
           </p>
-          <Player source='/Získání respondenta_1.mp3' />
-          <p className='mt-10'>
+          <Player source="/Získání respondenta_1.mp3" />
+          <p className="mt-10">
             No a také se můžete setkat s respondentem, kterému nebudou stačit
             informace, které jste mu sdělili v předem psaném úvodu a bude se
             doptávat na další informace. Každý projekt má svůj úvod, ve kterém
@@ -136,7 +136,7 @@ export default function page() {
             vyřeší. Toto telefonní číslo následně zašlete do chatu se
             supervizorem s informací, co se v hovoru stalo.
           </p>
-          <p className='mt-10'>
+          <p className="mt-10">
             Mezi nejčastější dotazy respondentů patří dotaz, odkud jsme na ně
             vzali telefonní kontakt. Toto je jedna z informací, kterou budete
             mít uvedenou přímo u každého kontaktu hned v úvodu. Obecně ale
@@ -148,8 +148,8 @@ export default function page() {
             číslo, tak neříkejte, že máte databázi, ale že jste dostali jeho
             kontakt od dané společnosti, jejíž je klientem.
           </p>
-          <Player source='/Číslo_2.mp3' />
-          <p className='mt-10'>
+          <Player source="/Číslo_2.mp3" />
+          <p className="mt-10">
             Je potřeba zachovat profesionální přístup, vždy zůstaňte zdvořilí,
             trpěliví a respektujte rozhodnutí respondente, i když se rozhodne
             nezúčastnit se dotazování. Při celém hovoru mějte prosím na paměti,
@@ -163,10 +163,14 @@ export default function page() {
             hezky poděkujete, tak bude příště více nakloněný k další spolupráci
             s námi.
           </p>
-          <p className='mt-10'>
+          <p className="mt-10">
             Prošli jste si veškeré materiály a chcete s námi spolupracovat?
-            Vyplňte přiložený formulář{' '}
-            <Link href='https://forms.gle/ph9Z2M2ugqTZW1vY8' className="text-brigada-blue underline underline-offset-4" target="_blank">
+            Vyplňte přiložený formulář{" "}
+            <Link
+              href="https://forms.gle/ph9Z2M2ugqTZW1vY8"
+              className="text-brigada-blue underline underline-offset-4"
+              target="_blank"
+            >
               https://forms.gle/ph9Z2M2ugqTZW1vY8.
             </Link>
           </p>

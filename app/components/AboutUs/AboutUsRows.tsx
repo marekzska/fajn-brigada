@@ -44,68 +44,73 @@ const people = [
 
 export default function AboutUsRows() {
   return (
-    <div className='bg-white py-10 sm:py-24'>
-      <div className='mx-auto max-w-7xl px-6 lg:px-40'>
-        <div className='-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3'>
+    <div className="bg-white py-10 sm:py-24">
+      <div className="mx-auto max-w-7xl px-6 lg:px-40">
+        <div className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {people.map((person) => (
-            <Disclosure key={person.name} as='div' className='pt-6'>
+            <Disclosure key={person.name} as="div" className="pt-6">
               <dt>
-                <DisclosureButton className='group flex w-full items-center justify-between text-left text-gray-900'>
-                  <span className='text-base font-semibold leading-7'>
-                    <div className='flex flex-col gap-10 pt-12 sm:flex-row'>
+                <DisclosureButton className="group flex w-full items-center justify-between text-left text-gray-900">
+                  <span className="text-base font-semibold leading-7">
+                    <div className="flex flex-col gap-10 pt-12 sm:flex-row">
                       <Image
-                        alt=''
+                        alt=""
                         src={person.imageUrl}
-                        className='aspect-[3/4] w-52 flex-none rounded-2xl object-cover'
+                        className="aspect-[3/4] w-52 flex-none rounded-2xl object-cover"
                         width={1000}
                         height={1000}
                       />
-                      <div className='max-w-xl flex-auto'>
-                        <h3 className='text-lg font-semibold leading-8 tracking-tight text-gray-900'>
+                      <div className="max-w-xl flex-auto">
+                        <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
                           {person.name}
                         </h3>
-                        <p className='text-base leading-7 text-gray-600'>
+                        <p className="text-base leading-7 text-gray-600">
                           {person.role}
                         </p>
-                        <p className='mt-6 text-base leading-7 text-gray-500'>
+                        <p className="mt-6 text-base leading-7 text-gray-500">
                           {person.bio}
                         </p>
                       </div>
                     </div>
                   </span>
-                  <span className='ml-6 flex h-7 items-center'>
+                  <span className="ml-6 flex h-7 items-center">
                     <ChevronDownIcon
-                      aria-hidden='true'
-                      className='h-6 w-6 group-data-[open]:hidden'
+                      aria-hidden="true"
+                      className="h-6 w-6 group-data-[open]:hidden"
                     />
                     <ChevronUpIcon
-                      aria-hidden='true'
-                      className='h-6 w-6 [.group:not([data-open])_&]:hidden'
+                      aria-hidden="true"
+                      className="h-6 w-6 [.group:not([data-open])_&]:hidden"
                     />
                   </span>
                 </DisclosureButton>
               </dt>
-              <DisclosurePanel as='dd' className='mt-2 sm:pr-12'>
+              <DisclosurePanel as="dd" className="mt-2 sm:pr-12">
                 <QuestionRows questions={questions[person.slug]} />
               </DisclosurePanel>
             </Disclosure>
           ))}
         </div>
-        <div className='flex items-center mt-24 p-10 rounded-xl justify-center gap-8'>
-          <Image src='/ipsos-logo-transparent.svg' width={200} height={200} alt='' />
-          <div className='flex flex-col gap-4'>
-            <h2 className='text-xl font-semibold text-gray-900'>
+        <div className="flex items-center mt-24 p-10 rounded-xl justify-center gap-8">
+          <Image
+            src="/ipsos-logo-transparent.svg"
+            width={200}
+            height={200}
+            alt=""
+          />
+          <div className="flex flex-col gap-4">
+            <h2 className="text-xl font-semibold text-gray-900">
               V případě dotazu nás kontaktujte
             </h2>
             <Link
-              href='mailto:cati@ipsos.cz'
-              className='underline underline-offset-4'
+              href="mailto:cati@ipsos.cz"
+              className="underline underline-offset-4"
             >
               cati@ipsos.cz
             </Link>
             <Link
-              href='tel:+420724150097'
-              className='underline underline-offset-4'
+              href="tel:+420724150097"
+              className="underline underline-offset-4"
             >
               +420 724 150 097
             </Link>
